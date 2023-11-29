@@ -1,0 +1,35 @@
+/* src/Screens/HomePage.css */
+.home-container {
+  background-color: #2a2f3f;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 400px;
+  text-align: center;
+}
+
+.home-container h1 {
+  color: #61dafb;
+  margin-bottom: 20px;
+}
+
+.home-container p {
+  color: #ffffff;
+  margin: 10px 0;
+}
+
+.home-container button {
+  background-color: #61dafb;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.home-container button:hover {
+  background-color: #4582ec;
+}

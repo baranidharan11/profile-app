@@ -1,0 +1,27 @@
+/* src/components/UpdateUserModal.css */
+.update-user-modal input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #3a3f4f;
+  border: 1px solid #2a2f3f;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.update-user-modal button {
+  background-color: #61dafb;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.update-user-modal button:hover {
+  background-color: #4582ec;
+}
